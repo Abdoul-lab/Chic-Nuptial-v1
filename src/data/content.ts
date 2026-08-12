@@ -137,6 +137,7 @@ export const CONTACT_INFO = {
   phoneDisplay: '+225 07 07 07 07 07',
   phoneHref: 'tel:+2250707070707',
   whatsappNumber: '2250707070707',
+  facebookUrl: "https://www.facebook.com/",
   whatsappMessage: 'Bonjour CHIC NUPTIAL, je souhaite obtenir des informations sur vos services.',
   email: 'contact@chicnuptial.ci',
   emailHref: 'mailto:contact@chicnuptial.ci',

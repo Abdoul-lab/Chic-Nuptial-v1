@@ -4,7 +4,7 @@ import CTAButton from '../common/CTAButton';
 const categories = ['Robes', 'Accessoires', 'Décoration', 'Maquillage'];
 
 const HeroSection = () => (
-  <section className="relative overflow-hidden pt-[7rem] md:pt-[2.75rem]">
+  <section className="relative overflow-hidden pt-[3rem] md:pt-[2.75rem]">
     <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-20 lg:px-10">
       <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
         <div className="text-center text-[#4A2E1D] sm:text-left">
@@ -12,13 +12,13 @@ const HeroSection = () => (
             Mariages · Fêtes · Événements professionnels
           </p>
           <h1 className="font-playfair text-5xl font-semibold leading-tight tracking-tight sm:text-6xl">
-            CHIC NUPTIAL
+            Bienvenue chez CHIC NUPTIAL <span className="mt-4 font-playfair text-xl italic text-[#4A2E1D]/80 sm:mt-6">
+            Nous faisons de Votre événement, notre style.
+          </span>
           </h1>
-          <p className="mt-4 font-playfair text-xl italic text-[#4A2E1D]/80 sm:mt-6">
-            Votre événement, notre style.
-          </p>
+          
           <p className="mt-6 max-w-xl font-montserrat text-base leading-8 text-[#4A2E1D]/80">
-            Découvrez une maison ivoirienne dédiée aux robes de mariée, robes de soirée, accessoires, décoration, dragées, location et maquillage haut de gamme.
+            Nous sommes spécialisée dans l'univers du mariage et des événements. Nous vous accompagnons avec élégance pour faire de chaque célébration un moment inoubliable.
           </p>
           <div className="mt-8 sm:mt-10">
             <CTAButton text="DÉCOUVRIR NOTRE BOUTIQUE" link="/services" className="bg-[#B58A4A] text-[#FAF8F3] shadow-lg shadow-[#B58A4A]/20 transition-transform duration-200 hover:-translate-y-1 hover:bg-[#9b7335]" />
