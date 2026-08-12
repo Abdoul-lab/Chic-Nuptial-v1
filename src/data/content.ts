@@ -143,6 +143,6 @@ export const CONTACT_INFO = {
   emailHref: 'mailto:',
   address: 'Marcory, Abidjan',
   addressFull: "Marcory · Abidjan · Côte d'Ivoire",
-  mapsUrl: "https://www.google.com/maps?q=Cocody,+Abidjan,+C%C3%B4te+d'Ivoire",
+  mapsUrl: "https://www.google.com/maps?q=Marcory,+Abidjan,+C%C3%B4te+d'Ivoire",
   hours: 'Lundi au samedi · 9 h à 19 h',
 } as const;

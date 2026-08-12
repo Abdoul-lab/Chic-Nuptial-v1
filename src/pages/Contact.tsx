@@ -69,10 +69,10 @@ const Contact = () => {
         <div className="mb-16 overflow-hidden rounded-3xl border border-[#E7DCCB] bg-white shadow-[0_18px_55px_rgba(181,138,74,0.1)]">
           <div className="bg-[#FFF4E6] px-6 py-5">
             <h3 className="font-playfair text-2xl text-[#4A2E1D]">Notre emplacement</h3>
-            <p className="mt-1 font-montserrat text-sm text-[#6E6258]">Découvrez notre studio à Cocody, directement sur Google Maps.</p>
+            <p className="mt-1 font-montserrat text-sm text-[#6E6258]">Découvrez notre studio à Marcory, directement sur Google Maps.</p>
           </div>
           <div className="aspect-[16/9] sm:aspect-[3/2]">
-            <iframe title="Carte Google Maps Chic Nuptial" src="https://www.google.com/maps?q=Cocody,+Abidjan,+C%C3%B4te+d'Ivoire&output=embed" className="h-full w-full border-0" allowFullScreen loading="lazy" />
+            <iframe title="Carte Google Maps Chic Nuptial" src="https://www.google.com/maps?q=Marcory,+Abidjan,+C%C3%B4te+d'Ivoire&output=embed" className="h-full w-full border-0" allowFullScreen loading="lazy" />
           </div>
         </div>
       </div>
