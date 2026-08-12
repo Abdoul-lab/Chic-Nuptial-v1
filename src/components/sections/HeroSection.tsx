@@ -18,7 +18,7 @@ const HeroSection = () => (
           </h1>
           
           <p className="mt-6 max-w-xl font-montserrat text-base leading-8 text-[#4A2E1D]/80">
-            Nous sommes spécialisée dans l'univers du mariage et des événements. Nous vous accompagnons avec élégance pour faire de chaque célébration un moment inoubliable.
+            Nous sommes spécialisées dans l'univers du mariage et des événements. Nous vous accompagnons avec élégance pour faire de chaque célébration un moment inoubliable.
           </p>
           <div className="mt-8 sm:mt-10">
             <CTAButton text="DÉCOUVRIR NOTRE BOUTIQUE" link="/services" className="bg-[#B58A4A] text-[#FAF8F3] shadow-lg shadow-[#B58A4A]/20 transition-transform duration-200 hover:-translate-y-1 hover:bg-[#9b7335]" />
