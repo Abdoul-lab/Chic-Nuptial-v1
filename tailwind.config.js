@@ -7,13 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        ivory: '#FFFFF0',
+        ivory: '#FAF8F3',
         champagne: '#F7E7CE',
-        gold: '#CFB53B',
-        anthracite: '#2C2C2C',
+        gold: '#B58A4A',
+        title: '#4A2E1D',
+        anthracite: '#4A2E1D',
       },
       fontFamily: {
-        playfair: ['Playfair Display', 'serif'],
+        playfair: ['Cormorant Garamond', 'serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
         cormorant: ['Cormorant Garamond', 'serif'],
       },
     },

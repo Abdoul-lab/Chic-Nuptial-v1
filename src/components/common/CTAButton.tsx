@@ -10,11 +10,11 @@ interface CTAButtonProps {
 }
 
 const CTAButton = ({ text, link, onClick, variant = 'primary', className = '' }: CTAButtonProps) => {
-  const baseStyles = "inline-flex items-center space-x-2 px-8 py-4 font-cormorant text-lg rounded-full transition-all duration-300 transform hover:scale-105";
+  const baseStyles = "inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full transition-all duration-300 transform font-montserrat font-semibold text-lg";
   
   const variants = {
-    primary: "bg-[#CFB53B] text-[#FFFFF0] hover:bg-[#CFB53B]/90 shadow-lg hover:shadow-xl",
-    secondary: "border-2 border-[#CFB53B] text-[#CFB53B] hover:bg-[#CFB53B] hover:text-[#FFFFF0]"
+    primary: "bg-[#B58A4A] text-[#FFFFFF] shadow-lg hover:bg-[#9b7335] hover:-translate-y-0.5",
+    secondary: "border-2 border-[#B58A4A] bg-white text-[#B58A4A] hover:bg-[#B58A4A] hover:text-[#FFFFFF] hover:-translate-y-0.5"
   };
 
   const content = (

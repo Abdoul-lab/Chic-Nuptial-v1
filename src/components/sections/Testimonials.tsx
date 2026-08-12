@@ -1,4 +1,4 @@
-import { Star } from 'lucide-react';
+import { Quote, Star } from 'lucide-react';
 
 const Testimonials = () => {
   const testimonials = [
@@ -23,7 +23,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="py-20 bg-[#FFFFF0]">
+    <section className="py-12 bg-[#FFFFFF]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl text-[#2C2C2C] mb-4">
@@ -38,9 +38,10 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-2xl border border-[#F7E7CE]/30 hover:shadow-xl transition-all duration-300"
+              className="relative overflow-hidden rounded-[1.75rem] border border-[#E7DCCB] bg-white p-8 shadow-[0_14px_38px_rgba(181,138,74,0.08)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_22px_48px_rgba(181,138,74,0.16)]"
             >
-              <div className="flex mb-4">
+              <Quote className="absolute right-6 top-6 h-12 w-12 text-[#B58A4A]/10" aria-hidden="true" />
+              <div className="flex mb-5">
                 {[...Array(testimonial.rating)].map((_, i) => (
                   <Star key={i} className="w-5 h-5 text-[#CFB53B] fill-current" />
                 ))}
@@ -50,9 +51,10 @@ const Testimonials = () => {
                 "{testimonial.text}"
               </p>
               
-              <div className="border-t border-[#F7E7CE]/30 pt-4">
-                <p className="font-playfair text-lg text-[#2C2C2C]">{testimonial.name}</p>
-                <p className="font-cormorant text-sm text-[#CFB53B]">{testimonial.event}</p>
+              <div className="flex items-center gap-3 border-t border-[#E7DCCB] pt-4">
+                <span className="flex h-10 w-10 items-center justify-center rounded-full bg-[#FFF4E6] font-playfair text-sm text-[#B58A4A]">{testimonial.name.split(' ').map((part) => part[0]).join('')}</span>
+                <div><p className="font-playfair text-lg text-[#2C2C2C]">{testimonial.name}</p>
+                <p className="font-cormorant text-sm text-[#CFB53B]">{testimonial.event}</p></div>
               </div>
             </div>
           ))}

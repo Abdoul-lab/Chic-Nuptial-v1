@@ -1,28 +1,10 @@
 import GalleryCard from '../cards/GalleryCard';
 import CTAButton from '../common/CTAButton';
-import { images } from '../../utils/images';
+import { GALLERY_PREVIEW_ITEMS } from '../../data/content';
 
 const GalleryPreview = () => {
-  const galleryItems = [
-    {
-      imageUrl: images.gallery1,
-      title: 'Mariage Traditionnel Baoulé',
-      category: 'Mariage Traditionnel'
-    },
-    {
-      imageUrl: images.gallery4,
-      title: 'Table d\'Honneur Élégante',
-      category: 'Réception'
-    },
-    {
-      imageUrl: images.gallery9,
-      title: 'Détails Dorés Raffinés',
-      category: 'Détails'
-    }
-  ];
-
   return (
-    <section className="py-20 bg-gradient-to-b from-[#FFFFF0] to-[#F7E7CE]/10">
+    <section className="py-12 bg-gradient-to-b from-[#FFFFFF] to-[#F7E7CE]/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl text-[#2C2C2C] mb-4">
@@ -34,9 +16,9 @@ const GalleryPreview = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {galleryItems.map((item, index) => (
+          {GALLERY_PREVIEW_ITEMS.map((item) => (
             <GalleryCard
-              key={index}
+              key={item.title}
               imageUrl={item.imageUrl}
               title={item.title}
               category={item.category}
