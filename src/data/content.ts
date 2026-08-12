@@ -134,15 +134,15 @@ export const GALLERY_PREVIEW_ITEMS: GalleryItemData[] = [
 ];
 
 export const CONTACT_INFO = {
-  phoneDisplay: '+225 07 07 07 07 07',
-  phoneHref: 'tel:+2250707070707',
-  whatsappNumber: '2250707070707',
-  facebookUrl: "https://www.facebook.com/",
+  phoneDisplay: '+225 07 58 04 79 25',
+  phoneHref: 'tel:+2250758047925',
+  whatsappNumber: '2250758047925',
+  facebookUrl: "",
   whatsappMessage: 'Bonjour CHIC NUPTIAL, je souhaite obtenir des informations sur vos services.',
-  email: 'contact@chicnuptial.ci',
-  emailHref: 'mailto:contact@chicnuptial.ci',
-  address: 'Cocody, Abidjan',
-  addressFull: "Cocody, Abidjan, Côte d'Ivoire",
+  email: '',
+  emailHref: 'mailto:',
+  address: 'Marcory, Abidjan',
+  addressFull: "Marcory · Abidjan · Côte d'Ivoire",
   mapsUrl: "https://www.google.com/maps?q=Cocody,+Abidjan,+C%C3%B4te+d'Ivoire",
   hours: 'Lundi au samedi · 9 h à 19 h',
 } as const;
