@@ -4,7 +4,7 @@ import CTAButton from '../common/CTAButton';
 const categories = ['Robes', 'Accessoires', 'Décoration', 'Maquillage'];
 
 const HeroSection = () => (
-  <section className="relative overflow-hidden pt-[3rem] md:pt-[2.75rem]">
+  <section className="relative overflow-hidden pt-[3.5rem] md:pt-[2.75rem]">
     <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 sm:py-20 lg:px-10">
       <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
         <div className="text-center text-[#4A2E1D] sm:text-left">
